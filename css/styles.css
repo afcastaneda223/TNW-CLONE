@@ -1,0 +1,35 @@
+/*Header*/
+
+.black-header{
+  align-items: center;
+  background-color:#121212;
+  box-sizing: border-box;
+  display: grid;
+  font-size: 13px;
+  font-family: "ARS Maquette", "Helvetica Neue", Arial, sans-serif;
+  grid-gap: 2em;
+  grid-template-columns: repeat(6, minmax(max-content, max-content)) minmax(0%, 100%) repeat(5, minmax(max-content, max-content));
+  height: 30px;
+  left: 0;
+  padding-left: 20px;
+  padding-right: 20px;
+  position: absolute;
+  text-align: center;
+  top: 0;
+  width: 100%;
+}
+
+.black-header a:link{
+  color: #A1A1A1A1;
+  text-decoration: none;
+}
+
+.black-header a:hover{
+  color: #ffffff;
+  text-decoration: none;
+  }
+
+.bh-1 a:link{
+    color: #ffffff;
+    font-weight: 800;
+}
