@@ -1,6 +1,13 @@
 /*Header*/
 
-.black-header{
+.logo{
+    position: fixed;
+    display: inline-block;
+    left: 0;
+    top:0;
+    z-index: 9999;
+}
+.black-navbar{
   align-items: center;
   background-color:#121212;
   box-sizing: border-box;
@@ -17,19 +24,71 @@
   text-align: center;
   top: 0;
   width: 100%;
+  z-index: 2;
 }
 
-.black-header a:link{
+.black-navbar a:link{
   color: #A1A1A1A1;
   text-decoration: none;
 }
 
-.black-header a:hover{
+.black-navbar a:hover{
   color: #ffffff;
   text-decoration: none;
   }
 
-.bh-1 a:link{
+.bnv-1 a:link{
   color: #ffffff;
   font-weight: 800;
 }
+
+.white-navbar{
+  align-items: center;
+  background-color:#ffffff;
+  box-sizing: border-box;
+  display: grid;
+  font-size: 13px;
+  font-family: sans-serif;
+  font-weight: 500;
+  grid-template-columns: repeat(6, minmax(max-content, max-content)) minmax(0%, 100%) repeat(2, minmax(max-content, max-content));
+  grid-gap: 2em;
+  height: 48px;
+  left: 0;
+  margin-top: 30px;
+  position: sticky;
+  text-align: center;
+  width: 100%;
+  z-index: 3;
+}
+
+.white-navbar a:link{
+  color: #A9A9A9;
+  text-decoration: none;
+}
+  
+.white-navbar a:hover{
+  color: #121212;
+  text-decoration: none;
+  }
+
+.wnv-9 a:link{
+  color: #ED4133;
+  display: block;
+  width: 30px;
+  border-left: 1px solid #eee;
+  box-sizing: border-box;
+  height: 48px;
+  font-size: 20px;
+  padding: 15px;
+  margin-right: 15px;
+}
+
+.wnv-8 a:link{
+    display: block;
+    width: 30px;
+    border-left: 1px solid #eee;
+    box-sizing: border-box;
+    height: 48px;
+    font-size: 20px;
+    padding: 15px;
+  }
