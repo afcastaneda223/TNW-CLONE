@@ -1,6 +1,8 @@
 /*Header*/
 
-
+body{
+  box-sizing: border-box;
+}
 .logo1{
     position: fixed;
     left: 0;
@@ -10,16 +12,15 @@
 .black-navbar{
   align-items: center;
   background-color:#121212;
-  box-sizing: border-box;
   display: grid;
   font-size: 13px;
   font-family: "ARS Maquette", "Helvetica Neue", Arial, sans-serif;
   grid-gap: 2em;
-  grid-template-columns: repeat(6 , minmax(max-content, max-content)) minmax(0%, 100%) repeat(5, minmax(max-content, max-content));
+  grid-template-columns: repeat(6 , minmax(max-content, max-content)) minmax(0%, 70%) repeat(7, minmax(max-content, max-content));
   height: 30px;
   left: 0;
   padding-left: 20px;
-  padding-right: 20px;
+  padding-right: 80px;
   position: absolute;
   text-align: center;
   top: 0;
@@ -104,6 +105,7 @@
     grid-template-columns: repeat(6, minmax(max-content, max-content)) minmax(0%, 100%) repeat(2, minmax(max-content, max-content));
     margin-left: 12px;
   }
+
 }
 @media (min-width: 768px) and  (max-width: 1020px) {
   .logo2,
@@ -116,7 +118,7 @@
 
 
   .white-navbar{
-    grid-template-columns: repeat(6, minmax(max-content, max-content)) minmax(0%, 100%) repeat(2, minmax(max-content, max-content));
+    grid-template-columns: repeat(6, minmax(max-content, max-content)) minmax(0%, 20%) repeat(2, minmax(max-content, max-content));
     padding-left: 108px; 
   }
   .black-navbar{
@@ -144,7 +146,42 @@
     margin-top: -1em;
     grid-template-columns: repeat(1, minmax(max-content, max-content)) minmax(0%, 100%) repeat(2, minmax(max-content, max-content));
   }
+
 }
+
+/*Main Section 1 */
+
+.section-1{
+  display: grid;
+  border: 1px solid red;
+  grid-template-columns: minmax(0%, 70%) minmax(0%, 30%);
+  grid-gap: 1%;
+  margin: 10px;
+  }
+
+.sb1{
+  border: 1px solid blue;
+  grid-row: 1 / span 2;
+}
+
+.sb2{
+  border: 1px solid blue;
+
+}
+
+.sb3{
+  border: 1px solid blue;
+
+}
+
+@media (max-width: 768px){
+
+.section-1{
+  grid-template-columns: 100%;
+}
+
+}
+
 /* footer styles */
 footer {
   text-align: center;
