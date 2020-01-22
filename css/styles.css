@@ -145,3 +145,88 @@
     grid-template-columns: repeat(1, minmax(max-content, max-content)) minmax(0%, 100%) repeat(2, minmax(max-content, max-content));
   }
 }
+/* footer styles */
+footer {
+  text-align: center;
+}
+ul {
+  list-style: none;
+}
+.footer-links {
+  background: #131313;
+  padding: 2.5em 0;
+}
+
+.wrapper {
+  margin: 0 auto;
+  max-width: 1192px;
+  padding: 0 20px;
+}
+.footer-links-social {
+  margin-bottom: 1.5em;
+}
+.footer-links-social li,
+.footer-links-menu li {
+  display: inline-block;
+  font-family: Shentox, sans-serif;
+  margin: 0 3px;
+}
+.footer-links-social li a {
+  background: #333;
+  border-radius: 50%;
+  display: block;
+  height: 40px;
+  text-align: center;
+  width: 40px;
+}
+.footer-links-menu li a {
+  color: #aaa;
+  font-size: 13px;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+.icon {
+  background-position: 1296px 1296px;
+  background-size: 1296px 1296px;
+  color: white;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 10px;
+  width: 16px;
+}
+.icon--facebook--light {
+  background-position: -272px -272px;
+}
+.footer-legal {
+  background: #000;
+  color: #aaa;
+  font-size: 13px;
+  padding: 2.5em 0;
+}
+.footer-legal-logoStackPath,
+.footer-legal-logoTNW {
+  display: inline-block;
+  height: 9px;
+  margin-right: 1px;
+  vertical-align: baseline;
+}
+.footer-legal span b {
+  color: #f42;
+}
+
+/*footer responsivenes*/
+@media (min-width: 768px) {
+  .footer-links {
+    padding: 3em 0 2em;
+  }
+  .footer-links-social li {
+    margin: 0 8px;
+  }
+  .footer-legal {
+    padding: 3em 0;
+  }
+  .footer-legal span {
+    display: inline;
+  }
+}
