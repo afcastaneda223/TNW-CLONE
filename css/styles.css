@@ -1,8 +1,9 @@
 /*Header*/
 
-body{
+.body{
   box-sizing: border-box;
 }
+
 .logo1{
     position: fixed;
     left: 0;
@@ -12,15 +13,16 @@ body{
 .black-navbar{
   align-items: center;
   background-color:#121212;
+  box-sizing: border-box;
   display: grid;
   font-size: 13px;
   font-family: "ARS Maquette", "Helvetica Neue", Arial, sans-serif;
   grid-gap: 2em;
-  grid-template-columns: repeat(6 , minmax(max-content, max-content)) minmax(0%, 70%) repeat(7, minmax(max-content, max-content));
+  grid-template-columns: repeat(6 , minmax(max-content, max-content)) minmax(0%, 70%) repeat(5, minmax(max-content, max-content));
   height: 30px;
   left: 0;
   padding-left: 20px;
-  padding-right: 80px;
+  padding-right: 20px;
   position: absolute;
   text-align: center;
   top: 0;
@@ -107,7 +109,7 @@ body{
   }
 
 }
-@media (min-width: 768px) and  (max-width: 1020px) {
+@media (min-width: 950px) and  (max-width: 1020px) {
   .logo2,
   .wnv-9{
     display: none;
@@ -116,7 +118,32 @@ body{
     z-index: 999;
   }
 
+  .white-navbar{
+    grid-template-columns: repeat(6, minmax(max-content, max-content)) minmax(0%, 20%) repeat(2, minmax(max-content, max-content));
+    padding-left: 108px; 
+  }
+  .black-navbar{
+    padding-left: 110px;
+  }
+}
 
+@media (min-width: 768px) and  (max-width: 950px) {
+  .logo2,
+  .wnv-9,
+  .bnv-8,
+  .bnv-9,
+  .bnv-10,
+  .bnv-11,
+  .bnv-12{
+    display: none;
+  }
+  .logo1{
+    z-index: 999;
+  }
+.black-navbar{
+  grid-template-columns: repeat(6, minmax(max-content, max-content)) minmax(0%, 20%) repeat(5, minmax(max-content, max-content));
+
+}
   .white-navbar{
     grid-template-columns: repeat(6, minmax(max-content, max-content)) minmax(0%, 20%) repeat(2, minmax(max-content, max-content));
     padding-left: 108px; 
