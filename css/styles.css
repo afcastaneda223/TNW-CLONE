@@ -200,15 +200,14 @@
     display: none;
   }
 
-  .wnv-9,
   .fnv-9 {
     display: block;
   }
 
-  .white-navbar,
   .fixed-navbar {
     margin-top: -1em;
     grid-template-columns: repeat(1, minmax(max-content, max-content)) minmax(0%, 100%) repeat(2, minmax(max-content, max-content));
+
   }
 }
 
@@ -288,6 +287,7 @@
   .section-1 {
     grid-template-columns: 1fr;
     grid-template-rows: minmax(0%, 100%) minmax(0%, 100%) minmax(0%, 100%);
+    margin-top: 45px;
   }
 
   .sb1 {
