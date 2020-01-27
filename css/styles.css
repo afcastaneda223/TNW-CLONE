@@ -1,9 +1,5 @@
 /* navbar */
 
-body *{
-  box-sizing: border-box;
-}
-
 .logo1 {
   left: 0;
   position: absolute;
@@ -13,6 +9,7 @@ body *{
 .black-navbar {
   align-items: center;
   background-color: #131313;
+  box-sizing: border-box;
   column-gap: 20px;
   display: grid;
   font-family: "ARS Maquette", "Helvetica Neue", Arial, sans-serif;
@@ -129,6 +126,7 @@ body *{
   align-items: center;
   background-color: #fff;
   bottom: 10px;
+  box-sizing: border-box;
   column-gap: 2em;
   display: grid;
   font-family: sans-serif;
@@ -156,6 +154,7 @@ body *{
 }
 
 .wnv-9 a:link {
+  box-sizing: border-box;
   border-left: 1px solid #eee;
   color: #ed4133;
   display: block;
@@ -168,6 +167,7 @@ body *{
 
 .wnv-8 a:link {
   border-left: 1px solid #eee;
+  box-sizing: border-box;
   display: block;
   font-size: 20px;
   height: 48px;
@@ -178,6 +178,7 @@ body *{
 .fixed-navbar {
   align-items: center;
   background-color: #fff;
+  box-sizing: border-box;
   column-gap: 2em;
   display: grid;
   font-family: sans-serif;
@@ -204,6 +205,7 @@ body *{
 
 .fnv-9 a:link {
   border-left: 1px solid #eee;
+  box-sizing: border-box;
   color: #ed4133;
   display: block;
   font-size: 20px;
@@ -215,6 +217,7 @@ body *{
 
 .fnv-8 a:link {
   border-left: 1px solid #eee;
+  box-sizing: border-box;
   display: block;
   font-size: 20px;
   height: 48px;
@@ -252,7 +255,7 @@ body *{
   }
 
   .white-navbar {
-    grid-template-columns: repeat(6, minmax(max-content, max-content)) minmax(0%, 20%) repeat(1, minmax(min-content, max-content));
+    grid-template-columns: repeat(6, minmax(max-content, max-content)) minmax(0%, 20%) repeat(1, minmax(max-content, max-content));
     padding-left: 108px;
   }
 
@@ -402,7 +405,7 @@ body *{
 
 @media (max-width: 768px) {
 .main-1 {
-  font-size: 15px;
+  font-size: 11px;
   grid-template-columns: repeat(auto-fit, minmax(0%, 100%) );
   margin-bottom: 10px;
   margin-left: 0;
