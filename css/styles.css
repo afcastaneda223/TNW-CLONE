@@ -1,6 +1,6 @@
 /* navbar */
 
-*{
+body *{
   box-sizing: border-box;
 }
 
@@ -252,7 +252,7 @@
   }
 
   .white-navbar {
-    grid-template-columns: repeat(6, minmax(max-content, max-content)) minmax(0%, 20%) repeat(1, minmax(max-content, max-content));
+    grid-template-columns: repeat(6, minmax(max-content, max-content)) minmax(0%, 20%) repeat(1, minmax(min-content, max-content));
     padding-left: 108px;
   }
 
@@ -417,7 +417,6 @@
 .m-6,
 .m-7,
 .m-8 {
-  column-gap: 1em;
   display: grid;
   grid-template-columns: 30% 70%;
 }
