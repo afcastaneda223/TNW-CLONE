@@ -11,10 +11,10 @@
   background-color: #131313;
   box-sizing: border-box;
   display: grid;
-  font-size: 13px;
   font-family: "ARS Maquette", "Helvetica Neue", Arial, sans-serif;
-  grid-gap: 2em;
+  font-size: 13px;
   grid-template-columns: repeat(6, minmax(max-content, max-content)) minmax(0%, 70%) repeat(5, minmax(max-content, max-content));
+  grid-gap: 2em;
   height: 30px;
   left: 0;
   padding-left: 20px;
@@ -49,7 +49,7 @@
   background-size: cover;
   display: block;
   padding-top: 50%;
-}P
+}
 
 .m-4 a {
   background-image: url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/01/Untitled-design-68-516x270.jpg");
@@ -125,11 +125,11 @@
 .white-navbar {
   align-items: center;
   background-color: #fff;
-  box-sizing: border-box;
   bottom: 10px;
+  box-sizing: border-box;
   display: grid;
-  font-size: 13px;
   font-family: sans-serif;
+  font-size: 13px;
   font-weight: 500;
   grid-template-columns: repeat(6, minmax(max-content, max-content)) minmax(0%, 100%) repeat(2, minmax(max-content, max-content));
   grid-gap: 2em;
@@ -155,7 +155,6 @@
 
 .wnv-9 a:link {
   border-left: 1px solid #eee;
-  box-sizing: border-box;
   color: #ed4133;
   display: block;
   font-size: 20px;
@@ -180,8 +179,8 @@
   background-color: #fff;
   box-sizing: border-box;
   display: grid;
-  font-size: 13px;
   font-family: sans-serif;
+  font-size: 13px;
   font-weight: 500;
   grid-template-columns: repeat(7, minmax(max-content, max-content)) minmax(0%, 100%) repeat(2, minmax(max-content, max-content));
   grid-gap: 2em;
@@ -282,15 +281,14 @@
   }
 
   .fixed-navbar {
-    margin-top: -1em;
     grid-template-columns: repeat(1, minmax(max-content, max-content)) minmax(0%, 100%) repeat(2, minmax(max-content, max-content));
+    margin-top: -1em;x
   }
 }
 
 /* header */
 
 .section-1 {
-  box-sizing: border-box;
   color: #fff;
   display: grid;
   font-family: sans-serif;
@@ -298,15 +296,15 @@
   grid-template-columns: minmax(0%, 70%) minmax(0%, 30%);
   grid-template-rows: minmax(0%, 50%) minmax(0%, 50%);
   grid-gap: 8px;
-  margin-top: 70px;
   margin-bottom: 10px;
+  margin-top: 70px;
   text-align: left;
 }
 
 .sb1 {
   background-image: url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/01/Honey_Featured-796x417.jpg");
-  background-size: cover;
   background-position: 50%;
+  background-size: cover;
   font-size: 56px;
   grid-column: 1 / span 1;
   grid-row: 1 / span 2;
@@ -315,8 +313,8 @@
 
 .sb2 {
   background-image: url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/01/Snag_1bab13a3-796x443.png");
-  background-size: cover;
   background-position: 50%;
+  background-size: cover;
   font-size: 28px;
   grid-column: 2 / span 1;
   grid-row: 1 / span 1;
@@ -331,8 +329,8 @@
 
 .sb3 {
   background-image: url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/01/trump-tesla-grant-money-inject-research-hydrogen-science-796x448.jpg");
-  background-size: cover;
   background-position: 50%;
+  background-size: cover;
   font-size: 28px;
   grid-column: 2 / span 1;
   grid-row: 2 / span 1;
@@ -390,8 +388,8 @@
 .main-1 {
   display: grid;
   font-size: 12px;
-  grid-template-columns: repeat(auto-fit, minmax(20%, 1fr));
   grid-gap: 20px;
+  grid-template-columns: repeat( auto-fit, minmax(20% , 1fr) );
   margin-left: 15%;
   width: 70%;
 }
@@ -406,9 +404,9 @@
 @media (max-width: 768px) {
 .main-1 {
   font-size: 15px;
-  grid-template-columns: repeat(auto-fit,minmax(100%, 1fr));
-  margin-left: 0;
+  grid-template-columns: repeat( auto-fit, minmax(100%, 1fr) );
   margin-bottom: 10px;
+  margin-left: 0;
   width: 100%;
   }
 
