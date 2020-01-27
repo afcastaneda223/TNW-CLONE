@@ -194,20 +194,18 @@
 }
 
 .fixed-navbar a:link {
-  box-sizing: border-box;
   color: #a9a9a9;
   text-decoration: none;
-
 }
 
 .fixed-navbar a:hover {
   color: #121212;
-  box-sizing: border-box;
   text-decoration: none;
 }
 
 .fnv-9 a:link {
   border-left: 1px solid #eee;
+  box-sizing: border-box;
   color: #ed4133;
   display: block;
   font-size: 20px;
@@ -219,8 +217,10 @@
 
 .fnv-8 a:link {
   border-left: 1px solid #eee;
+  box-sizing: border-box;
+  display: block;
   font-size: 20px;
-  height: 44px;
+  height: 48px;
   padding: 15px;
   width: 30px;
 }
