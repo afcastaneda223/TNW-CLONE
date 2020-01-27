@@ -293,9 +293,9 @@
   display: grid;
   font-family: sans-serif;
   font-weight: 700;
+  grid-gap: 8px;
   grid-template-columns: minmax(0%, 70%) minmax(0%, 30%);
   grid-template-rows: minmax(0%, 50%) minmax(0%, 50%);
-  grid-gap: 8px;
   margin-bottom: 10px;
   margin-top: 70px;
   text-align: left;
@@ -408,7 +408,7 @@
   margin-bottom: 10px;
   margin-left: 0;
   width: 100%;
-  }
+}
 
 .m-1,
 .m-2,
