@@ -1,9 +1,5 @@
 /* navbar */
 
-.body {
-  box-sizing: border-box;
-}
-
 .logo1 {
   position: absolute;
   left: 0;
@@ -12,8 +8,8 @@
 
 .black-navbar {
   align-items: center;
-  box-sizing: border-box;
   background-color: #131313;
+  box-sizing: border-box;
   display: grid;
   font-size: 13px;
   font-family: "ARS Maquette", "Helvetica Neue", Arial, sans-serif;
@@ -34,8 +30,8 @@
   background-position: 50%;
   background-repeat: no-repeat;
   background-size: cover;
-  padding-top: 50%;
   display: block;
+  padding-top: 50%;
 }
 
 .m-2 a {
@@ -43,56 +39,56 @@
   background-position: 50%;
   background-repeat: no-repeat;
   background-size: cover;
-  padding-top: 50%;
   display: block;
+  padding-top: 50%;
 }
 
 .m-3 a {
   background-image: url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2019/08/bitcoin_today-header_bitcoin_today-512x270.jpg");
   background-repeat: no-repeat;
   background-size: cover;
-  padding-top: 50%;
   display: block;
+  padding-top: 50%;
 }
 
 .m-4 a {
   background-image: url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/01/Untitled-design-68-516x270.jpg");
   background-repeat: no-repeat;
   background-size: cover;
-  padding-top: 50%;
   display: block;
+  padding-top: 50%;
 }
 
 .m-5 a {
   background-image: url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/01/Untitled-design43-516x270.png");
   background-repeat: no-repeat;
   background-size: cover;
-  padding-top: 50%;
   display: block;
+  padding-top: 50%;
 }
 
 .m-6 a {
   background-image: url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/01/UK-connectors-ev-charging-tesla-nissan-fuel-power-grid-charging-480x270.png");
   background-repeat: no-repeat;
   background-size: cover;
-  padding-top: 50%;
   display: block;
+  padding-top: 50%;
 }
 
 .m-7 a {
   background-image: url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/01/Untitled-design42-516x270.png");
   background-repeat: no-repeat;
   background-size: cover;
-  padding-top: 50%;
   display: block;
+  padding-top: 50%;
 }
 
 .m-8 a {
   background-image: url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/01/Copy-of-Copy-of-Copy-of-Copy-of-...-1-516x270.png");
   background-repeat: no-repeat;
   background-size: cover;
-  padding-top: 50%;
   display: block;
+  padding-top: 50%;
 }
 
 .footer-links-social li a {
@@ -130,6 +126,7 @@
   align-items: center;
   background-color: #fff;
   box-sizing: border-box;
+  bottom: 10px;
   display: grid;
   font-size: 13px;
   font-family: sans-serif;
@@ -143,7 +140,6 @@
   position: absolute;
   text-align: center;
   top: 30px;
-  bottom: 10px;
   width: 100%;
 }
 
@@ -158,25 +154,25 @@
 }
 
 .wnv-9 a:link {
-  color: #ed4133;
-  display: block;
-  width: 30px;
   border-left: 1px solid #eee;
   box-sizing: border-box;
-  height: 48px;
+  color: #ed4133;
+  display: block;
   font-size: 20px;
-  padding: 15px;
+  height: 48px;
   margin-right: 15px;
+  padding: 15px;
+  width: 30px;
 }
 
 .wnv-8 a:link {
-  display: block;
-  width: 30px;
   border-left: 1px solid #eee;
   box-sizing: border-box;
-  height: 48px;
+  display: block;
   font-size: 20px;
+  height: 48px;
   padding: 15px;
+  width: 30px;
 }
 
 .fixed-navbar {
@@ -193,8 +189,8 @@
   left: 0;
   position: fixed;
   text-align: center;
-  width: 100%;
   top: 0;
+  width: 100%;
 }
 
 .fixed-navbar a:link {
@@ -208,25 +204,25 @@
 }
 
 .fnv-9 a:link {
-  color: #ed4133;
-  display: block;
-  width: 30px;
   border-left: 1px solid #eee;
   box-sizing: border-box;
-  height: 48px;
+  color: #ed4133;
+  display: block;
   font-size: 20px;
-  padding: 15px;
+  height: 48px;
   margin-right: 15px;
+  padding: 15px;
+  width: 30px;
 }
 
 .fnv-8 a:link {
-  display: block;
-  width: 30px;
   border-left: 1px solid #eee;
   box-sizing: border-box;
-  height: 48px;
+  display: block;
   font-size: 20px;
+  height: 48px;
   padding: 15px;
+  width: 30px;
 }
 
 @media (min-width: 1090px) {
@@ -294,36 +290,36 @@
 /* header */
 
 .section-1 {
+  box-sizing: border-box;
   display: grid;
+  color: #fff;
+  font-family: sans-serif;
+  font-weight: 700;
   grid-template-columns: minmax(0%, 70%) minmax(0%, 30%);
   grid-template-rows: minmax(0%, 50%) minmax(0%, 50%);
   grid-gap: 8px;
   margin-top: 70px;
   margin-bottom: 10px;
-  font-family: sans-serif;
-  font-weight: 700;
-  color: #fff;
   text-align: left;
-  box-sizing: border-box;
 }
 
 .sb1 {
-  grid-column: 1 / span 1;
-  grid-row: 1 / span 2;
-  font-size: 56px;
   background-image: url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/01/Honey_Featured-796x417.jpg");
   background-size: cover;
   background-position: 50%;
+  font-size: 56px;
+  grid-column: 1 / span 1;
+  grid-row: 1 / span 2;
   min-height: 400px;
 }
 
 .sb2 {
-  grid-column: 2 / span 1;
-  grid-row: 1 / span 1;
-  font-size: 28px;
   background-image: url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/01/Snag_1bab13a3-796x443.png");
   background-size: cover;
   background-position: 50%;
+  font-size: 28px;
+  grid-column: 2 / span 1;
+  grid-row: 1 / span 1;
   min-height: 200px;
 }
 
@@ -334,12 +330,12 @@
 }
 
 .sb3 {
-  grid-column: 2 / span 1;
-  grid-row: 2 / span 1;
-  font-size: 28px;
   background-image: url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/01/trump-tesla-grant-money-inject-research-hydrogen-science-796x448.jpg");
   background-size: cover;
   background-position: 50%;
+  font-size: 28px;
+  grid-column: 2 / span 1;
+  grid-row: 2 / span 1;
   min-height: 200px;
 }
 
