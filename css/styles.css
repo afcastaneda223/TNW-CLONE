@@ -140,6 +140,7 @@
   position: absolute;
   text-align: center;
   top: 30px;
+  width: 100%;
 }
 
 .white-navbar a:link {
