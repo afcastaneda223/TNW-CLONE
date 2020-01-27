@@ -325,14 +325,22 @@
 
 main p {
   box-sizing: border-box;
-  color: #ed4133;
   font-size: 28px;
   font-weight: 700;
-  padding-left: 30px;
   width: 100%;
+  text-decoration: none;
 }
 
-.sb1 p,
+main a:link{
+  color: #ed4133;
+  text-decoration: none;
+}
+
+main a:visited{
+  color: #ed4133;
+  text-decoration: none;
+}
+.sb1 p, 
 .sb2 p,
 .sb3 p {
   margin-top: 25%;
@@ -402,8 +410,9 @@ main p {
   column-gap: 20px;
   display: grid;
   font-size: 12px;
-  grid-template-columns: repeat(auto-fit, minmax(0%, 20%));
-  padding: 30px;
+  grid-template-columns: repeat(auto-fit, minmax(0%, 23%));
+  width: 90%;
+  margin-left: 5%;
 }
 
 @media (min-width: 768px) and  (max-width: 1090px) {
@@ -440,6 +449,100 @@ main p {
   }
 }
 
+
+.latest-text{
+  box-sizing: border-box;
+  align-content: center;
+  align-items: center;
+  column-gap: 20px;
+  display: grid;
+  grid-template-columns: repeat(1, minmax(max-content, max-content)) minmax(0%, 100%) repeat(3, minmax(max-content, max-content));
+  width: 90%;
+  margin-left: 5%;
+}
+
+.latest-text h2{
+font-size: 15px;
+}
+
+.latest{
+  box-sizing: border-box;
+  column-gap: 20px;
+  display: grid;
+  font-size: 12px;
+  grid-template-columns: repeat(auto-fit, minmax(0%, 23%));
+  width: 90%;
+  margin-left: 5%;
+}
+
+.lastest-1{
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 1fr 2fr 3fr 3fr;
+}
+
+
+.l-1{
+  display: flex;
+  grid-row: 1 / 2;
+  background-color: #ED4133;
+  color: #ffffff;
+  padding-left: 60px;
+}
+.l-3{
+  grid-row: 2 / 3;
+  background-color: #FBE9E6;
+  color: #000000;
+  display: flex;
+  padding-left: 60px;
+}
+
+.l-4{
+  grid-row: 3 / 4;
+  background-color: #FEFAF8;
+  color: #000000;
+  display: grid;
+  border-bottom: 1px solid #F7C5BD;
+}
+
+.l-5{
+  grid-row: 4 / 5;
+  background-color: #FEFAF8;
+  color: #000000;
+  display: grid;
+}
+.latest img{
+  width: 50px;
+  display: flex;
+
+}
+
+@media (min-width: 1090px) {
+
+}
+
+@media (min-width: 768px) and  (max-width: 1090px) {
+.latest-text{
+  grid-template-columns: repeat(auto-fit, minmax(0%, 100%));
+}
+
+.latest{
+  grid-template-columns: repeat(auto-fit, minmax(0%, 31%));
+}
+.latest-4{
+  display: none;
+}
+}
+@media (max-width: 768px){
+.latest-text,
+.latest{
+  grid-template-columns: repeat(auto-fit, minmax(0%, 100%));
+}
+.latest-4{
+  display: none;
+}
+
+}
 /* footer styles */
 footer {
   text-align: center;
