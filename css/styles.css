@@ -122,6 +122,56 @@
   font-weight: 800;
 }
 
+.fixed-navbar {
+  align-items: center;
+  background-color: #fff;
+  box-sizing: border-box;
+  column-gap: 2em;
+  display: grid;
+  font-family: sans-serif;
+  font-size: 13px;
+  font-weight: 500;
+  grid-template-columns: repeat(7, minmax(max-content, max-content)) minmax(0%, 100%) repeat(2, minmax(max-content, max-content));
+  height: 48px;
+  left: 0;
+  position: fixed;
+  text-align: center;
+  top: 0;
+  width: 100%;
+}
+
+.fixed-navbar a:link {
+  color: #a9a9a9;
+  text-decoration: none;
+}
+
+.fixed-navbar a:hover {
+  color: #121212;
+  text-decoration: none;
+}
+
+.fnv-9 a:link {
+  border-left: 1px solid #eee;
+  box-sizing: border-box;
+  color: #ed4133;
+  display: block;
+  font-size: 20px;
+  height: 48px;
+  margin-right: 15px;
+  padding: 15px;
+  width: 30px;
+}
+
+.fnv-8 a:link {
+  border-left: 1px solid #eee;
+  box-sizing: border-box;
+  display: block;
+  font-size: 20px;
+  height: 48px;
+  padding: 15px;
+  width: 30px;
+}
+
 .white-navbar {
   align-items: center;
   background-color: #fff;
@@ -175,55 +225,7 @@
   width: 30px;
 }
 
-.fixed-navbar {
-  align-items: center;
-  background-color: #fff;
-  box-sizing: border-box;
-  column-gap: 2em;
-  display: grid;
-  font-family: sans-serif;
-  font-size: 13px;
-  font-weight: 500;
-  grid-template-columns: repeat(7, minmax(max-content, max-content)) minmax(0%, 100%) repeat(2, minmax(max-content, max-content));
-  height: 48px;
-  left: 0;
-  position: fixed;
-  text-align: center;
-  top: 0;
-  width: 100%;
-}
 
-.fixed-navbar a:link {
-  color: #a9a9a9;
-  text-decoration: none;
-}
-
-.fixed-navbar a:hover {
-  color: #121212;
-  text-decoration: none;
-}
-
-.fnv-9 a:link {
-  border-left: 1px solid #eee;
-  box-sizing: border-box;
-  color: #ed4133;
-  display: block;
-  font-size: 20px;
-  height: 48px;
-  margin-right: 15px;
-  padding: 15px;
-  width: 30px;
-}
-
-.fnv-8 a:link {
-  border-left: 1px solid #eee;
-  box-sizing: border-box;
-  display: block;
-  font-size: 20px;
-  height: 48px;
-  padding: 15px;
-  width: 30px;
-}
 
 @media (min-width: 1090px) {
   .logo1,
