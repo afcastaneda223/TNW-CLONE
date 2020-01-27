@@ -1,8 +1,8 @@
 /* navbar */
 
 .logo1 {
-  position: absolute;
   left: 0;
+  position: absolute;
   top: 0;
 }
 
@@ -291,8 +291,8 @@
 
 .section-1 {
   box-sizing: border-box;
-  display: grid;
   color: #fff;
+  display: grid;
   font-family: sans-serif;
   font-weight: 700;
   grid-template-columns: minmax(0%, 70%) minmax(0%, 30%);
@@ -360,57 +360,56 @@
 
 @media (max-width: 768px) {
   .section-1 {
-    grid-template-columns: 1fr;
+    grid-template-columns: 100%;
     grid-template-rows: minmax(0%, 100%) minmax(0%, 100%) minmax(0%, 100%);
     margin-top: 45px;
   }
 
   .sb1 {
+    font-size: 20px;
     grid-column: 1;
     grid-row: 1;
-    font-size: 20px;
     min-height: 200px;
   }
 
   .sb2 {
+    font-size: 20px;
     grid-column: 1;
     grid-row: 2;
-    font-size: 20px;
   }
 
   .sb3 {
+    font-size: 20px;
     grid-column: 1;
     grid-row: 3;
-    font-size: 20px;
   }
 }
 
 /* main */
 
 .main-1 {
-  box-sizing: border-box;
   display: grid;
+  font-size: 12px;
   grid-template-columns: repeat(auto-fit, minmax(20%, 1fr));
   grid-gap: 20px;
-  width: 70%;
   margin-left: 15%;
-  font-size: 12px;
+  width: 70%;
 }
 
 @media (min-width: 768px) and  (max-width: 1090px) {
   .main-1 {
-    grid-template-columns: repeat(auto-fit, minmax(30%, 1fr));
     font-size: 10px;
+    grid-template-columns: repeat(auto-fit, minmax(30%, 1fr));
   }
 }
 
 @media (max-width: 768px) {
   .main-1 {
-    grid-template-columns: repeat(auto-fit, minmax(100%, 1fr));
     font-size: 15px;
-    width: 100%;
+    grid-template-columns: repeat(auto-fit, minmax(100%, 1fr));
     margin-left: 0%;
     margin-bottom: 10px;
+    width: 100%;
   }
 
   .m-1,
