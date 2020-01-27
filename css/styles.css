@@ -140,7 +140,6 @@
   position: absolute;
   text-align: center;
   top: 30px;
-  width: 100%;
 }
 
 .white-navbar a:link {
@@ -318,6 +317,7 @@
   font-size: 28px;
   grid-column: 2 / span 1;
   grid-row: 1 / span 1;
+  margin-bottom: 10px;
   min-height: 200px;
 }
 
@@ -386,12 +386,11 @@
 /* main */
 
 .main-1 {
-  display: grid;
   column-gap: 20px;
+  display: grid;
   font-size: 12px;
   grid-template-columns: repeat(auto-fit, minmax(20% , 1fr) );
   margin-left: 15%;
-  row-gap: 20px;
   width: 70%;
 }
 
@@ -419,9 +418,9 @@
 .m-6,
 .m-7,
 .m-8 {
+  column-gap: 1em;
   display: grid;
   grid-template-columns: 30% 70%;
-  column-gap: 1em;
 }
 }
 
