@@ -168,8 +168,7 @@
   .bnv-10,
   .bnv-11,
   .bnv-12,
-  .wnv-9 
-  {
+  .wnv-9 {
     display: none;
   }
 
@@ -207,7 +206,6 @@
   .fixed-navbar {
     margin-top: -1em;
     grid-template-columns: repeat(1, minmax(max-content, max-content)) minmax(0%, 100%) repeat(2, minmax(max-content, max-content));
-
   }
 }
 
@@ -236,7 +234,6 @@
   background-position: 50%;
   min-height: 400px;
 }
-
 
 .sb2 {
   grid-column: 2 / span 1;
@@ -315,14 +312,14 @@
 .main-1 {
   box-sizing: border-box;
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(20%,1fr));
+  grid-template-columns: repeat(auto-fit, minmax(20%, 1fr));
   grid-gap: 20px;
   width: 70%;
   margin-left: 15%;
   font-size: 12px;
 }
 
-.m-1 a{
+.m-1 a {
   background-image: url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/01/font-developers-540x260.png");
   background-position: 50%;
   background-repeat: no-repeat;
@@ -331,8 +328,8 @@
   display: block;
 }
 
-.m-2 a{
-  background-image: url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/01/pexels-photo-2386132-514x270.jpeg");  
+.m-2 a {
+  background-image: url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/01/pexels-photo-2386132-514x270.jpeg");
   background-position: 50%;
   background-repeat: no-repeat;
   background-size: cover;
@@ -340,15 +337,15 @@
   display: block;
 }
 
-.m-3 a{
-  background-image: url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2019/08/bitcoin_today-header_bitcoin_today-512x270.jpg");  
+.m-3 a {
+  background-image: url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2019/08/bitcoin_today-header_bitcoin_today-512x270.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   padding-top: 50%;
   display: block;
 }
 
-.m-4 a{
+.m-4 a {
   background-image: url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/01/Untitled-design-68-516x270.jpg");
   background-repeat: no-repeat;
   background-size: cover;
@@ -356,28 +353,31 @@
   display: block;
 }
 
-.m-5 a{
+.m-5 a {
   background-image: url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/01/Untitled-design43-516x270.png");
   background-repeat: no-repeat;
   background-size: cover;
   padding-top: 50%;
   display: block;
 }
-.m-6 a{
+
+.m-6 a {
   background-image: url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/01/UK-connectors-ev-charging-tesla-nissan-fuel-power-grid-charging-480x270.png");
   background-repeat: no-repeat;
   background-size: cover;
   padding-top: 50%;
   display: block;
 }
-.m-7 a{
+
+.m-7 a {
   background-image: url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/01/Untitled-design42-516x270.png");
   background-repeat: no-repeat;
   background-size: cover;
   padding-top: 50%;
   display: block;
 }
-.m-8 a{
+
+.m-8 a {
   background-image: url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/01/Copy-of-Copy-of-Copy-of-Copy-of-...-1-516x270.png");
   background-repeat: no-repeat;
   background-size: cover;
@@ -385,41 +385,33 @@
   display: block;
 }
 
-
-
 @media (min-width: 768px) and  (max-width: 1090px) {
-  .main-1{
-    grid-template-columns: repeat(auto-fit, minmax(30%,1fr));
+  .main-1 {
+    grid-template-columns: repeat(auto-fit, minmax(30%, 1fr));
     font-size: 10px;
   }
-
 }
-@media (max-width: 768px){
-  .main-1{
-    grid-template-columns: repeat(auto-fill, minmax(100%,1fr));
+
+@media (max-width: 768px) {
+  .main-1 {
+    grid-template-columns: repeat(auto-fit, minmax(100%, 1fr));
+    font-size: 15px;
     width: 100%;
     margin-left: 0%;
-    border: 3px solid blue;
-
+    margin-bottom: 10px;
   }
 
-.m-1{
-  border: 3px solid red;
-  display: inline-block;
-  height: 50px;
-}
-
-.m-1 a,
-.m-2 a,
-.m-3 a,
-.m-4 a,
-.m-5 a,
-.m-6 a,
-.m-7 a,
-.m-8 a{
-display: none;  
-}
-
+  .m-1,
+  .m-2,
+  .m-3,
+  .m-4,
+  .m-5,
+  .m-6,
+  .m-7,
+  .m-8 {
+    display: grid;
+    grid-template-columns: 30% 70%;
+  }
 }
 
 /* footer styles */
