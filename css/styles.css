@@ -10,16 +10,17 @@
   align-items: center;
   background-color: #131313;
   box-sizing: border-box;
+  column-gap: 20px;
   display: grid;
   font-family: "ARS Maquette", "Helvetica Neue", Arial, sans-serif;
   font-size: 13px;
-  grid-gap: 2em;
   grid-template-columns: repeat(6, minmax(max-content, max-content)) minmax(0%, 70%) repeat(5, minmax(max-content, max-content));
   height: 30px;
   left: 0;
   padding-left: 20px;
   padding-right: 20px;
   position: absolute;
+  row-gap:20px;
   text-align: center;
   top: 0;
   width: 100%;
@@ -127,17 +128,18 @@
   background-color: #fff;
   bottom: 10px;
   box-sizing: border-box;
+  column-gap: 2em;
   display: grid;
   font-family: sans-serif;
   font-size: 13px;
   font-weight: 500;
-  grid-gap: 2em;
   grid-template-columns: repeat(6, minmax(max-content, max-content)) minmax(0%, 100%) repeat(2, minmax(max-content, max-content));
   height: 48px;
   left: 0;
   padding-left: 20px;
   padding-right: 20px;
   position: absolute;
+  row-gap: 2em;
   text-align: center;
   top: 30px;
   width: 100%;
@@ -178,15 +180,16 @@
   align-items: center;
   background-color: #fff;
   box-sizing: border-box;
+  column-gap: 2em;
   display: grid;
   font-family: sans-serif;
   font-size: 13px;
   font-weight: 500;
-  grid-gap: 2em;
   grid-template-columns: repeat(7, minmax(max-content, max-content)) minmax(0%, 100%) repeat(2, minmax(max-content, max-content));
   height: 48px;
   left: 0;
   position: fixed;
+  row-gap: 2em;
   text-align: center;
   top: 0;
   width: 100%;
@@ -290,14 +293,15 @@
 
 .section-1 {
   color: #fff;
+  column-gap: 8px;
   display: grid;
   font-family: sans-serif;
   font-weight: 700;
-  grid-gap: 8px;
   grid-template-columns: minmax(0%, 70%) minmax(0%, 30%);
   grid-template-rows: minmax(0%, 50%) minmax(0%, 50%);
   margin-bottom: 10px;
   margin-top: 70px;
+  row-gap: 8px;
   text-align: left;
 }
 
@@ -387,10 +391,11 @@
 
 .main-1 {
   display: grid;
+  column-gap: 20px;
   font-size: 12px;
-  grid-gap: 20px;
   grid-template-columns: repeat(auto-fit, minmax(20% , 1fr) );
   margin-left: 15%;
+  row-gap: 20px;
   width: 70%;
 }
 
@@ -420,6 +425,7 @@
 .m-8 {
   display: grid;
   grid-template-columns: 30% 70%;
+  column-gap: 1em;
 }
 }
 
