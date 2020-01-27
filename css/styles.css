@@ -155,6 +155,7 @@
 
 .wnv-9 a:link {
   border-left: 1px solid #eee;
+  box-sizing: border-box;
   color: #ed4133;
   display: block;
   font-size: 20px;
@@ -204,6 +205,7 @@
 
 .fnv-9 a:link {
   border-left: 1px solid #eee;
+  box-sizing: border-box;
   color: #ed4133;
   display: block;
   font-size: 20px;
@@ -215,6 +217,7 @@
 
 .fnv-8 a:link {
   border-left: 1px solid #eee;
+  box-sizing: border-box;
   display: block;
   font-size: 20px;
   height: 48px;
