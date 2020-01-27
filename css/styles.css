@@ -153,6 +153,7 @@
 }
 
 .wnv-9 a:link {
+  box-sizing: border-box;
   border-left: 1px solid #eee;
   color: #ed4133;
   display: block;
