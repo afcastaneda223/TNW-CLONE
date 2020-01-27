@@ -1,5 +1,9 @@
 /* navbar */
 
+*{
+  border:1px solid red;
+}
+
 .logo1 {
   left: 0;
   position: absolute;
@@ -393,10 +397,8 @@ main p{
   color: #ED4133;
   font-size: 28px;
   font-weight: 700;
-  margin-left: 30px;
+  padding-left: 30px;
   width: 100%;
-
-
 }
 
 .main-1 {
@@ -439,9 +441,9 @@ main p{
 }
 
 main p{
-  margin-left: 0;
+  padding-left: 0;
 }
-
+}
 /* footer styles */
 footer {
   text-align: center;
