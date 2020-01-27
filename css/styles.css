@@ -1,7 +1,3 @@
-*, *:before, *:after {
-  box-sizing: border-box;
-}
-
 /* navbar */
 
 .logo1 {
@@ -13,6 +9,7 @@
 .black-navbar {
   align-items: center;
   background-color: #131313;
+  box-sizing: border-box;
   column-gap: 20px;
   display: grid;
   font-family: "ARS Maquette", "Helvetica Neue", Arial, sans-serif;
@@ -129,6 +126,7 @@
   align-items: center;
   background-color: #fff;
   bottom: 10px;
+  box-sizing: border-box;
   column-gap: 2em;
   display: grid;
   font-family: sans-serif;
@@ -167,6 +165,7 @@
 
 .wnv-8 a:link {
   border-left: 1px solid #eee;
+  box-sizing: border-box;
   display: block;
   font-size: 20px;
   height: 48px;
@@ -177,6 +176,7 @@
 .fixed-navbar {
   align-items: center;
   background-color: #fff;
+  box-sizing: border-box;
   column-gap: 2em;
   display: grid;
   font-family: sans-serif;
@@ -203,6 +203,7 @@
 
 .fnv-9 a:link {
   border-left: 1px solid #eee;
+  box-sizing: border-box;
   color: #ed4133;
   display: block;
   font-size: 20px;
@@ -214,6 +215,7 @@
 
 .fnv-8 a:link {
   border-left: 1px solid #eee;
+  box-sizing: border-box;
   display: block;
   font-size: 20px;
   height: 48px;
