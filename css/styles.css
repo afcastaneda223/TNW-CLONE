@@ -1,21 +1,20 @@
-/*Header*/
+/* navbar */
 
-
-.logo1{
-    position: fixed;
-    left: 0;
-    top:0;
+.logo1 {
+  left: 0;
+  position: absolute;
+  top: 0;
 }
 
-.black-navbar{
+.black-navbar {
   align-items: center;
-  background-color:#121212;
+  background-color: #131313;
   box-sizing: border-box;
+  column-gap: 20px;
   display: grid;
-  font-size: 13px;
   font-family: "ARS Maquette", "Helvetica Neue", Arial, sans-serif;
-  grid-gap: 2em;
-  grid-template-columns: repeat(6 , minmax(max-content, max-content)) minmax(0%, 100%) repeat(5, minmax(max-content, max-content));
+  font-size: 13px;
+  grid-template-columns: repeat(6, minmax(max-content, max-content)) minmax(0%, 70%) repeat(5, minmax(max-content, max-content));
   height: 30px;
   left: 0;
   padding-left: 20px;
@@ -26,132 +25,416 @@
   width: 100%;
 }
 
-.black-navbar a:link{
-  color: #A1A1A1A1;
+.m-1 a {
+  background-image: url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/01/font-developers-540x260.png");
+  background-position: 50%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: block;
+  padding-top: 50%;
+}
+
+.m-2 a {
+  background-image: url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/01/pexels-photo-2386132-514x270.jpeg");
+  background-position: 50%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: block;
+  padding-top: 50%;
+}
+
+.m-3 a {
+  background-image: url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2019/08/bitcoin_today-header_bitcoin_today-512x270.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: block;
+  padding-top: 50%;
+}
+
+.m-4 a {
+  background-image: url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/01/Untitled-design-68-516x270.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: block;
+  padding-top: 50%;
+}
+
+.m-5 a {
+  background-image: url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/01/Untitled-design43-516x270.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: block;
+  padding-top: 50%;
+}
+
+.m-6 a {
+  background-image: url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/01/UK-connectors-ev-charging-tesla-nissan-fuel-power-grid-charging-480x270.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: block;
+  padding-top: 50%;
+}
+
+.m-7 a {
+  background-image: url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/01/Untitled-design42-516x270.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: block;
+  padding-top: 50%;
+}
+
+.m-8 a {
+  background-image: url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/01/Copy-of-Copy-of-Copy-of-Copy-of-...-1-516x270.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: block;
+  padding-top: 50%;
+}
+
+.footer-links-social li a {
+  background: #333;
+  border-radius: 50%;
+  display: block;
+  height: 40px;
+  text-align: center;
+  width: 40px;
+}
+
+.footer-links-menu li a {
+  color: #aaa;
+  font-size: 13px;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+.black-navbar a:link {
+  color: #a1a1a1a1;
   text-decoration: none;
 }
 
-.black-navbar a:hover{
-  color: #ffffff;
+.black-navbar a:hover {
+  color: #fff;
   text-decoration: none;
-  }
+}
 
-.bnv-1 a:link{
-  color: #ffffff;
+.bnv-1 a:link {
+  color: #fff;
   font-weight: 800;
 }
 
-.white-navbar{
+.white-navbar {
   align-items: center;
-  background-color:#ffffff;
+  background-color: #fff;
+  bottom: 10px;
   box-sizing: border-box;
+  column-gap: 2em;
   display: grid;
-  font-size: 13px;
   font-family: sans-serif;
+  font-size: 13px;
   font-weight: 500;
-  grid-template-columns: repeat(7, minmax(max-content, max-content)) minmax(0%, 100%) repeat(2, minmax(max-content, max-content));
-  grid-gap: 2em;
-  margin-left: -2em;
+  grid-template-columns: repeat(6, minmax(max-content, max-content)) minmax(0%, 100%) repeat(2, minmax(max-content, max-content));
   height: 48px;
   left: 0;
-  margin-top: 30px;
-  position: sticky;
+  padding-left: 20px;
+  padding-right: 20px;
+  position: absolute;
   text-align: center;
+  top: 30px;
   width: 100%;
 }
 
-.white-navbar a:link{
-  color: #A9A9A9;
+.white-navbar a:link {
+  color: #a9a9a9;
   text-decoration: none;
 }
-  
-.white-navbar a:hover{
+
+.white-navbar a:hover {
   color: #121212;
   text-decoration: none;
-  }
+}
 
-.wnv-9 a:link{
-  color: #ED4133;
-  display: block;
-  width: 30px;
+.wnv-9 a:link {
   border-left: 1px solid #eee;
   box-sizing: border-box;
-  height: 48px;
+  color: #ed4133;
+  display: block;
   font-size: 20px;
-  padding: 15px;
+  height: 48px;
   margin-right: 15px;
+  padding: 15px;
+  width: 30px;
 }
 
-.wnv-8 a:link{
-    display: block;
-    width: 30px;
-    border-left: 1px solid #eee;
-    box-sizing: border-box;
-    height: 48px;
-    font-size: 20px;
-    padding: 15px;
-  }
+.wnv-8 a:link {
+  border-left: 1px solid #eee;
+  box-sizing: border-box;
+  display: block;
+  font-size: 20px;
+  height: 48px;
+  padding: 15px;
+  width: 30px;
+}
 
+.fixed-navbar {
+  align-items: center;
+  background-color: #fff;
+  box-sizing: border-box;
+  column-gap: 2em;
+  display: grid;
+  font-family: sans-serif;
+  font-size: 13px;
+  font-weight: 500;
+  grid-template-columns: repeat(7, minmax(max-content, max-content)) minmax(0%, 100%) repeat(2, minmax(max-content, max-content));
+  height: 48px;
+  left: 0;
+  position: fixed;
+  text-align: center;
+  top: 0;
+  width: 100%;
+}
 
+.fixed-navbar a:link {
+  color: #a9a9a9;
+  text-decoration: none;
+}
 
-@media (min-width: 1020px) {
+.fixed-navbar a:hover {
+  color: #121212;
+  text-decoration: none;
+}
+
+.fnv-9 a:link {
+  border-left: 1px solid #eee;
+  box-sizing: border-box;
+  color: #ed4133;
+  display: block;
+  font-size: 20px;
+  height: 48px;
+  margin-right: 15px;
+  padding: 15px;
+  width: 30px;
+}
+
+.fnv-8 a:link {
+  border-left: 1px solid #eee;
+  box-sizing: border-box;
+  display: block;
+  font-size: 20px;
+  height: 48px;
+  padding: 15px;
+  width: 30px;
+}
+
+@media (min-width: 1090px) {
   .logo1,
   .logo2,
-  .wnv-9{
+  .fnv-9,
+  .wnv-9 {
     display: none;
   }
-  .white-navbar{
-    grid-template-columns: repeat(6, minmax(max-content, max-content)) minmax(0%, 100%) repeat(2, minmax(max-content, max-content));
-    margin-left: 12px;
+
+  .white-navbar {
+    grid-template-columns: repeat(6, minmax(max-content, max-content)) minmax(0%, 100%) repeat(1, minmax(max-content, max-content));
   }
 }
-@media (min-width: 768px) and  (max-width: 1020px) {
+
+@media (min-width: 768px) and  (max-width: 1090px) {
   .logo2,
-  .wnv-9{
+  .fnv-9,
+  .bnv-8,
+  .bnv-9,
+  .bnv-10,
+  .bnv-11,
+  .bnv-12,
+  .wnv-9 {
     display: none;
   }
-  .logo1{
+
+  .logo1 {
     z-index: 999;
   }
 
-
-  .white-navbar{
-    grid-template-columns: repeat(6, minmax(max-content, max-content)) minmax(0%, 100%) repeat(2, minmax(max-content, max-content));
-    padding-left: 108px; 
+  .white-navbar {
+    grid-template-columns: repeat(6, minmax(max-content, max-content)) minmax(0%, 20%) repeat(1, minmax(max-content, max-content));
+    padding-left: 108px;
   }
-  .black-navbar{
+
+  .black-navbar {
     padding-left: 110px;
   }
 }
 
-@media (max-width: 768px){
+@media (max-width: 768px) {
   .black-navbar,
+  .white-navbar,
   .logo1,
-  .wnv-1,
-  .wnv-2,
-  .wnv-3,
-  .wnv-4,
-  .wnv-5,
-  .wnv-6{
+  .fnv-1,
+  .fnv-2,
+  .fnv-3,
+  .fnv-4,
+  .fnv-5,
+  .fnv-6 {
     display: none;
   }
 
-  .wnv-9{
+  .fnv-9 {
     display: block;
   }
 
-  .white-navbar{
-    margin-top: -1em;
+  .fixed-navbar {
     grid-template-columns: repeat(1, minmax(max-content, max-content)) minmax(0%, 100%) repeat(2, minmax(max-content, max-content));
+    margin-top: -1em;
   }
 }
+
+/* header */
+
+.section-1 {
+  color: #fff;
+  column-gap: 8px;
+  display: grid;
+  font-family: sans-serif;
+  font-weight: 700;
+  grid-template-columns: minmax(0%, 70%) minmax(0%, 30%);
+  grid-template-rows: minmax(0%, 50%) minmax(0%, 50%);
+  margin-bottom: 10px;
+  margin-top: 70px;
+  text-align: left;
+}
+
+.sb1 {
+  background-image: url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/01/Honey_Featured-796x417.jpg");
+  background-position: 50%;
+  background-size: cover;
+  font-size: 56px;
+  grid-column: 1 / span 1;
+  grid-row: 1 / span 2;
+  min-height: 400px;
+}
+
+.sb2 {
+  background-image: url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/01/Snag_1bab13a3-796x443.png");
+  background-position: 50%;
+  background-size: cover;
+  font-size: 28px;
+  grid-column: 2 / span 1;
+  grid-row: 1 / span 1;
+  margin-bottom: 10px;
+  min-height: 200px;
+}
+
+.sb1 p,
+.sb2 p,
+.sb3 p {
+  margin-top: 25%;
+}
+
+.sb3 {
+  background-image: url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/01/trump-tesla-grant-money-inject-research-hydrogen-science-796x448.jpg");
+  background-position: 50%;
+  background-size: cover;
+  font-size: 28px;
+  grid-column: 2 / span 1;
+  grid-row: 2 / span 1;
+  min-height: 200px;
+}
+
+@media (min-width: 1090px) {
+  .sb1 {
+    font-size: 40px;
+  }
+
+  .sb2,
+  .sb3 {
+    font-size: 20px;
+  }
+}
+
+@media (min-width: 768px) and  (max-width: 1090px) {
+  .sb1,
+  .sb2,
+  .sb3 {
+    font-size: 20px;
+  }
+}
+
+@media (max-width: 768px) {
+  .section-1 {
+    grid-template-columns: 100%;
+    grid-template-rows: minmax(0%, 100%) minmax(0%, 100%) minmax(0%, 100%);
+    margin-top: 45px;
+  }
+
+  .sb1 {
+    font-size: 20px;
+    grid-column: 1;
+    grid-row: 1;
+    min-height: 200px;
+  }
+
+  .sb2 {
+    font-size: 20px;
+    grid-column: 1;
+    grid-row: 2;
+    margin-bottom: 0;
+  }
+
+  .sb3 {
+    font-size: 20px;
+    grid-column: 1;
+    grid-row: 3;
+  }
+}
+
+/* main */
+
+.main-1 {
+  column-gap: 20px;
+  display: grid;
+  font-size: 12px;
+  grid-template-columns: repeat(auto-fit, minmax(0% , 20% ));
+  margin-left: 15%;
+  width: 70%;
+}
+
+@media (min-width: 768px) and  (max-width: 1090px) {
+.main-1 {
+   font-size: 10px;
+   grid-template-columns: repeat(auto-fit, minmax(0%, 30%) );
+  }
+}
+
+@media (max-width: 768px) {
+.main-1 {
+  font-size: 11px;
+  grid-template-columns: repeat(auto-fit, minmax(0%, 100%) );
+  margin-bottom: 10px;
+  margin-left: 0;
+  width: 100%;
+}
+
+.m-1,
+.m-2,
+.m-3,
+.m-4,
+.m-5,
+.m-6,
+.m-7,
+.m-8 {
+  display: grid;
+  grid-template-columns: 30% 70%;
+}
+}
+
 /* footer styles */
 footer {
   text-align: center;
 }
+
 ul {
   list-style: none;
 }
+
 .footer-links {
   background: #131313;
   padding: 2.5em 0;
@@ -162,29 +445,18 @@ ul {
   max-width: 1192px;
   padding: 0 20px;
 }
+
 .footer-links-social {
   margin-bottom: 1.5em;
 }
+
 .footer-links-social li,
 .footer-links-menu li {
   display: inline-block;
   font-family: Shentox, sans-serif;
   margin: 0 3px;
 }
-.footer-links-social li a {
-  background: #333;
-  border-radius: 50%;
-  display: block;
-  height: 40px;
-  text-align: center;
-  width: 40px;
-}
-.footer-links-menu li a {
-  color: #aaa;
-  font-size: 13px;
-  text-decoration: none;
-  text-transform: uppercase;
-}
+
 .icon {
   background-position: 1296px 1296px;
   background-size: 1296px 1296px;
@@ -195,15 +467,18 @@ ul {
   padding-top: 10px;
   width: 16px;
 }
+
 .icon--facebook--light {
   background-position: -272px -272px;
 }
+
 .footer-legal {
   background: #000;
   color: #aaa;
   font-size: 13px;
   padding: 2.5em 0;
 }
+
 .footer-legal-logoStackPath,
 .footer-legal-logoTNW {
   display: inline-block;
@@ -211,21 +486,25 @@ ul {
   margin-right: 1px;
   vertical-align: baseline;
 }
+
 .footer-legal span b {
   color: #f42;
 }
 
-/*footer responsivenes*/
+/* footer responsivenes */
 @media (min-width: 768px) {
   .footer-links {
     padding: 3em 0 2em;
   }
+
   .footer-links-social li {
     margin: 0 8px;
   }
+
   .footer-legal {
     padding: 3em 0;
   }
+
   .footer-legal span {
     display: inline;
   }
