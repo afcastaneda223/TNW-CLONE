@@ -467,9 +467,10 @@ main p {
   width: 86%;
 }
 
-.lat-3 h2{
+.lat-3 {
   border-left: 1px solid #ed4133;
   font-size: 20px;
+  font-weight: 700;
   padding-left: 1em;
 }
 
