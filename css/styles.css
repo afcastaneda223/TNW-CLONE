@@ -480,9 +480,9 @@ main p {
   display: grid;
   font-size: 12px;
   grid-template-columns: repeat(auto-fit, minmax(0%, 23%));
+  margin-bottom: 20px;
   margin-left: 5%;
   width: 90%;
-  margin-bottom: 20px;
 }
 
 .lastest-1,
