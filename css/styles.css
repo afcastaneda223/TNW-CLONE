@@ -481,6 +481,7 @@ main p {
   grid-template-columns: repeat(auto-fit, minmax(0%, 23%));
   margin-left: 5%;
   width: 90%;
+  margin-bottom: 20px;
 }
 
 .lastest-1,
