@@ -1,12 +1,18 @@
 body {
   margin: 0;
 }
+
 /* navbar */
 
 .logo1 {
   left: 0;
   position: absolute;
   top: 0;
+}
+
+a {
+  color: #f42;
+  text-decoration: none;
 }
 
 .m-1 a {
@@ -17,6 +23,7 @@ body {
   display: block;
   padding-top: 50%;
 }
+
 .black-navbar {
   align-items: center;
   background-color: #131313;
@@ -38,6 +45,7 @@ body {
   width: 100%;
   z-index: 998;
 }
+
 .m-2 a {
   background-image: url('https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/01/pexels-photo-2386132-514x270.jpeg');
   background-position: 50%;
@@ -93,6 +101,26 @@ body {
   background-size: cover;
   display: block;
   padding-top: 50%;
+}
+
+.deals-header a,
+.deals-header i {
+  color: #f42;
+  text-decoration: none;
+}
+
+.story-title a {
+  color: #000;
+  text-decoration: none;
+}
+
+.section-popular-title a {
+  color: #fff;
+}
+
+.section-popular-byline a {
+  color: grey;
+  color: hsla(0, 0%, 100%, 0.6);
 }
 
 .footer-links-social li a {
@@ -155,6 +183,7 @@ main a:visited {
   color: #a9a9a9;
   text-decoration: none;
 }
+
 .white-navbar {
   align-items: center;
   background-color: #fff;
@@ -188,6 +217,7 @@ main a:visited {
   padding: 15px;
   width: 30px;
 }
+
 .wnv-9 a:link {
   border-left: 1px solid #eee;
   box-sizing: border-box;
@@ -214,6 +244,7 @@ main a:visited {
   color: #121212;
   text-decoration: none;
 }
+
 .fnv-8 a:link {
   border-left: 1px solid #eee;
   box-sizing: border-box;
@@ -223,6 +254,7 @@ main a:visited {
   padding: 15px;
   width: 30px;
 }
+
 .fnv-9 a:link {
   border-left: 1px solid #eee;
   box-sizing: border-box;
@@ -255,6 +287,7 @@ main a:visited {
   width: 100%;
   z-index: 996;
 }
+
 @media (min-width: 1090px) {
   .logo1,
   .logo2,
@@ -373,6 +406,14 @@ main a:visited {
   min-height: 200px;
 }
 
+main p {
+  box-sizing: border-box;
+  font-size: 28px;
+  font-weight: 700;
+  text-decoration: none;
+  width: 100%;
+}
+
 .sb1 p,
 .sb2 p,
 .sb3 p {
@@ -387,13 +428,6 @@ main a:visited {
   grid-column: 2 / span 1;
   grid-row: 2 / span 1;
   min-height: 200px;
-}
-main p {
-  box-sizing: border-box;
-  font-size: 28px;
-  font-weight: 700;
-  text-decoration: none;
-  width: 100%;
 }
 
 @media (min-width: 1090px) {
@@ -445,6 +479,16 @@ main p {
 
 /* main */
 
+.main-1 {
+  box-sizing: border-box;
+  column-gap: 20px;
+  display: grid;
+  font-size: 12px;
+  grid-template-columns: repeat(auto-fit, minmax(0%, 23%));
+  margin-left: 5%;
+  width: 90%;
+}
+
 @media (min-width: 768px) and (max-width: 1090px) {
   .main-1 {
     font-size: 10px;
@@ -477,15 +521,6 @@ main p {
   main p {
     padding-left: 0;
   }
-}
-.main-1 {
-  box-sizing: border-box;
-  column-gap: 20px;
-  display: grid;
-  font-size: 12px;
-  grid-template-columns: repeat(auto-fit, minmax(0%, 23%));
-  margin-left: 5%;
-  width: 90%;
 }
 
 .latest-text {
@@ -636,13 +671,7 @@ main p {
   padding-left: 2px;
 }
 
-.deals-header a,
 .deals-header i {
-  color: #f42;
-  text-decoration: none;
-}
-
-.deals-header fas {
   height: 16px;
   width: 16px;
 }
@@ -677,11 +706,6 @@ main p {
   margin-bottom: 1px;
   overflow-wrap: break-word;
   word-wrap: break-word;
-}
-
-.story-title a {
-  color: #000;
-  text-decoration: none;
 }
 
 .story-price {
@@ -723,11 +747,6 @@ main p {
   font-size: 28px;
   letter-spacing: -0.015em;
   padding-left: 40px;
-}
-
-a {
-  color: #f42;
-  text-decoration: none;
 }
 
 .section-latest,
@@ -843,21 +862,12 @@ h3 {
   font-size: 20px;
 }
 
-.section-popular-title a {
-  color: #fff;
-}
-
 .section-popular-byline {
   color: grey;
   color: hsla(0, 0%, 100%, 0.6);
   font-size: 12px;
   font-weight: 500;
   line-height: 16px;
-}
-
-.section-popular-byline a {
-  color: grey;
-  color: hsla(0, 0%, 100%, 0.6);
 }
 
 .section-popular-byline li {
