@@ -127,6 +127,12 @@ main a:visited {
   text-decoration: none;
 }
 
+
+.black-navbar a:visited {
+  color: #a1a1a1a1;
+  text-decoration: none;
+}
+
 .bnv-1 a:link {
   color: #fff;
   font-weight: 800;
@@ -160,6 +166,11 @@ main a:visited {
 
 .white-navbar a:hover {
   color: #121212;
+  text-decoration: none;
+}
+
+.white-navbar a:visited {
+  color: #a9a9a9;
   text-decoration: none;
 }
 
@@ -469,7 +480,7 @@ main p {
 
 .lat-3 {
   border-left: 1px solid #ed4133;
-  font-size: 20px;
+  font-size: 13px;
   font-weight: 700;
   padding-left: 1em;
 }
@@ -548,6 +559,10 @@ main p {
   grid-template-columns: repeat(auto-fit, minmax(0%, 31%));
 }
 
+.lat-3{
+  margin-bottom: 1em;
+}
+
 .latest-4 {
   display: none;
 }
@@ -563,6 +578,10 @@ main p {
 
 .lastnews p {
   margin-left: 0;
+}
+
+.lat-3{
+  margin-bottom: 1em;
 }
 
 .latest-4 {
