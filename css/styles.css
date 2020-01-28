@@ -28,6 +28,7 @@ body {
   text-align: center;
   top: 0;
   width: 100%;
+  z-index: 998;
 }
 
 .m-1 a {
@@ -163,6 +164,7 @@ main a:visited {
   text-align: center;
   top: 30px;
   width: 100%;
+  z-index: 997;
 }
 
 .white-navbar a:link {
@@ -220,6 +222,7 @@ main a:visited {
   text-align: center;
   top: 0;
   width: 100%;
+  z-index: 996;
 }
 
 .fixed-navbar a:link {
@@ -306,7 +309,6 @@ main a:visited {
     grid-template-columns:
       repeat(6, minmax(max-content, max-content)) minmax(0%, 100%)
       repeat(2, minmax(max-content, max-content));
-    margin-left: 12px;
   }
 }
 
