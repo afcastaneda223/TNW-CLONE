@@ -385,13 +385,8 @@ main a:visited {
 }
 
 .sb1a {
-  background-image: url(../assets/tnw-logo.png);
-  background-position: 0;
-  background-size: cover;
-  grid-row: 1 / span 1;
-  opacity: 0.5;
+  opacity: 0.8;
 }
-
 .sb2a {
   grid-row: 2;
 }
@@ -405,6 +400,7 @@ main a:visited {
   grid-row: 1 / span 1;
   margin-bottom: 10px;
   min-height: 200px;
+  
 }
 
 main p {
@@ -453,7 +449,7 @@ main p {
   }
 }
 
-@media (max-width: 768px) {
+@media (max-width: 767px) {
   .section-1 {
     grid-template-columns: 100%;
     grid-template-rows: minmax(0%, 100%) minmax(0%, 100%) minmax(0%, 100%);
