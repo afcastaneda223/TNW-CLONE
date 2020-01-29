@@ -480,7 +480,7 @@ main p {
 @media (min-width: 768px) and (max-width: 1090px) {
   .main-1 {
     font-size: 10px;
-    grid-template-columns: repeat(auto-fit, minmax(0%, 31 %));
+    grid-template-columns: repeat(auto-fit, minmax(0%, 31%));
   }
 }
 
