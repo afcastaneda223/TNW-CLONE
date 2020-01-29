@@ -3,7 +3,7 @@
 > This is the  project for learning pourposes
 
 
-Tittle
+Building with Responsive Design
 
 ## Built With
 

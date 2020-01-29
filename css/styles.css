@@ -33,8 +33,7 @@ a {
   font-family: 'ARS Maquette', 'Helvetica Neue', Arial, sans-serif;
   font-size: 13px;
   grid-template-columns:
-    repeat(6, minmax(max-content, max-content)) minmax(0%, 70%)
-    repeat(5, minmax(max-content, max-content));
+    repeat(6, minmax(max-content, max-content)) minmax(0%, 70%) repeat(5, minmax(max-content, max-content));
   height: 30px;
   left: 0;
   padding-left: 20px;
@@ -195,8 +194,7 @@ main a:visited {
   font-size: 13px;
   font-weight: 500;
   grid-template-columns:
-    repeat(6, minmax(max-content, max-content)) minmax(0%, 100%)
-    repeat(2, minmax(max-content, max-content));
+    repeat(6, minmax(max-content, max-content)) minmax(0%, 100%) repeat(2, minmax(max-content, max-content));
   height: 48px;
   left: 0;
   padding-left: 20px;
@@ -241,7 +239,7 @@ main a:visited {
 }
 
 .fixed-navbar a:visited {
-  color: #121212;
+  color: #a9a9a9;
   text-decoration: none;
 }
 
@@ -277,8 +275,7 @@ main a:visited {
   font-size: 13px;
   font-weight: 500;
   grid-template-columns:
-    repeat(7, minmax(max-content, max-content)) minmax(0%, 100%)
-    repeat(2, minmax(max-content, max-content));
+    repeat(7, minmax(max-content, max-content)) minmax(0%, 100%) repeat(2, minmax(max-content, max-content));
   height: 48px;
   left: 0;
   position: fixed;
@@ -289,6 +286,7 @@ main a:visited {
 }
 
 @media (min-width: 1090px) {
+
   .logo1,
   .logo2,
   .fnv-9,
@@ -298,12 +296,12 @@ main a:visited {
 
   .white-navbar {
     grid-template-columns:
-      repeat(6, minmax(max-content, max-content)) minmax(0%, 100%)
-      repeat(1, minmax(max-content, max-content));
+      repeat(6, minmax(max-content, max-content)) minmax(0%, 100%) repeat(1, minmax(max-content, max-content));
   }
 }
 
 @media (min-width: 768px) and (max-width: 1090px) {
+
   .logo2,
   .fnv-9,
   .bnv-8,
@@ -321,8 +319,7 @@ main a:visited {
 
   .white-navbar {
     grid-template-columns:
-      repeat(6, minmax(max-content, max-content)) minmax(0%, 20%)
-      repeat(1, minmax(max-content, max-content));
+      repeat(6, minmax(max-content, max-content)) minmax(0%, 20%) repeat(1, minmax(max-content, max-content));
     padding-left: 108px;
   }
 
@@ -332,6 +329,7 @@ main a:visited {
 }
 
 @media (min-width: 1020px) {
+
   .logo1,
   .logo2,
   .wnv-9 {
@@ -340,12 +338,12 @@ main a:visited {
 
   .white-navbar {
     grid-template-columns:
-      repeat(6, minmax(max-content, max-content)) minmax(0%, 100%)
-      repeat(2, minmax(max-content, max-content));
+      repeat(6, minmax(max-content, max-content)) minmax(0%, 100%) repeat(2, minmax(max-content, max-content));
   }
 }
 
 @media (max-width: 768px) {
+
   .black-navbar,
   .white-navbar,
   .logo1,
@@ -364,8 +362,7 @@ main a:visited {
 
   .fixed-navbar {
     grid-template-columns:
-      repeat(1, minmax(max-content, max-content)) minmax(0%, 100%)
-      repeat(2, minmax(max-content, max-content));
+      repeat(1, minmax(max-content, max-content)) minmax(0%, 100%) repeat(2, minmax(max-content, max-content));
     margin-top: -1em;
   }
 }
@@ -383,6 +380,7 @@ main a:visited {
   margin-bottom: 10px;
   margin-top: 70px;
   text-align: left;
+  padding: 10px;
 }
 
 .sb1 {
@@ -442,6 +440,7 @@ main p {
 }
 
 @media (min-width: 768px) and (max-width: 1090px) {
+
   .sb1,
   .sb2,
   .sb3 {
@@ -461,6 +460,8 @@ main p {
     grid-column: 1;
     grid-row: 1;
     min-height: 200px;
+    margin-bottom: 10px;
+
   }
 
   .sb2 {
@@ -468,6 +469,8 @@ main p {
     grid-column: 1;
     grid-row: 2;
     margin-bottom: 0;
+    margin-bottom: 10px;
+
   }
 
   .sb3 {
@@ -491,35 +494,47 @@ main p {
 @media (min-width: 768px) and (max-width: 1090px) {
   .main-1 {
     font-size: 10px;
-    grid-template-columns: repeat(auto-fit, minmax(0%, 30%));
+    grid-template-columns: repeat(auto-fit, minmax(0%, 31 %));
   }
 }
 
 @media (max-width: 768px) {
   .main-1 {
-    font-size: 11px;
-    grid-template-columns: repeat(auto-fit, minmax(0%, 100%));
-    margin-bottom: 10px;
-    margin-left: 0;
-    padding: 0;
-    width: 100%;
-  }
+ font-size: 11px;
+  grid-template-columns: repeat(auto-fit, minmax(0%, 100%));
+  margin-bottom: 10px;
+  margin-left: 0;
+  padding: 0;
+  width: 100%;
+}
 
-  .m-1,
-  .m-2,
-  .m-3,
-  .m-4,
-  .m-5,
-  .m-6,
-  .m-7,
-  .m-8 {
-    display: grid;
-    grid-template-columns: 30% 70%;
-  }
+.m-1,
+.m-2,
+.m-3,
+.m-4,
+.m-5,
+.m-6,
+.m-7,
+.m-8 {
+  display: grid;
+  grid-template-columns: 18% 82%;
+  margin-right: 2em;
+}
 
-  main p {
-    padding-left: 0;
-  }
+main p {
+  padding-left: 30px;
+}
+
+.m-1 a,
+.m-2 a,
+.m-3 a,
+.m-4 a,
+.m-5 a,
+.m-6 a,
+.m-7 a,
+.m-8 a {
+  margin: 0 1em 1em 3em;
+}
 }
 
 .latest-text {
@@ -529,8 +544,7 @@ main p {
   column-gap: 20px;
   display: grid;
   grid-template-columns:
-    repeat(1, minmax(max-content, max-content)) minmax(0%, 100%)
-    repeat(3, minmax(max-content, max-content));
+  repeat(1, minmax(max-content, max-content)) minmax(0%, 100%) repeat(3, minmax(max-content, max-content));
   margin-left: 5%;
   width: 86%;
 }
@@ -566,6 +580,7 @@ main p {
   margin-bottom: 20px;
   margin-left: 5%;
   width: 90%;
+  padding: 10px;
 }
 
 .l-1 {
@@ -632,6 +647,7 @@ main p {
 }
 
 @media (max-width: 768px) {
+
   .latest,
   .latest-text {
     grid-template-columns: repeat(auto-fit, minmax(0%, 100%));
