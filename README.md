@@ -2,8 +2,9 @@
 
 > This is the  project for learning pourposes
 
+Building with Responsive Design
 
-Tittle
+- https://raw.githack.com/afcastaneda223/TNW-CLONE/develop/index.html
 
 ## Built With
 

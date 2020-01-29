@@ -26,9 +26,7 @@ body {
   display: grid;
   font-family: 'ARS Maquette', 'Helvetica Neue', Arial, sans-serif;
   font-size: 13px;
-  grid-template-columns:
-    repeat(6, minmax(max-content, max-content)) minmax(0%, 70%)
-    repeat(5, minmax(max-content, max-content));
+  grid-template-columns: repeat(6, minmax(max-content, max-content)) minmax(0%, 70%) repeat(5, minmax(max-content, max-content));
   height: 30px;
   left: 0;
   padding-left: 20px;
@@ -166,9 +164,7 @@ main a:visited {
   font-family: sans-serif;
   font-size: 13px;
   font-weight: 500;
-  grid-template-columns:
-    repeat(6, minmax(max-content, max-content)) minmax(0%, 100%)
-    repeat(2, minmax(max-content, max-content));
+  grid-template-columns: repeat(6, minmax(max-content, max-content)) minmax(0%, 100%) repeat(2, minmax(max-content, max-content));
   height: 48px;
   left: 0;
   padding-left: 20px;
@@ -212,7 +208,7 @@ main a:visited {
 }
 
 .fixed-navbar a:visited {
-  color: #121212;
+  color: #a9a9a9;
   text-decoration: none;
 }
 .fnv-8 a:link {
@@ -245,9 +241,7 @@ main a:visited {
   font-family: sans-serif;
   font-size: 13px;
   font-weight: 500;
-  grid-template-columns:
-    repeat(7, minmax(max-content, max-content)) minmax(0%, 100%)
-    repeat(2, minmax(max-content, max-content));
+  grid-template-columns: repeat(7, minmax(max-content, max-content)) minmax(0%, 100%) repeat(2, minmax(max-content, max-content));
   height: 48px;
   left: 0;
   position: fixed;
@@ -265,9 +259,7 @@ main a:visited {
   }
 
   .white-navbar {
-    grid-template-columns:
-      repeat(6, minmax(max-content, max-content)) minmax(0%, 100%)
-      repeat(1, minmax(max-content, max-content));
+    grid-template-columns: repeat(6, minmax(max-content, max-content)) minmax(0%, 100%) repeat(1, minmax(max-content, max-content));
   }
 }
 
@@ -288,9 +280,7 @@ main a:visited {
   }
 
   .white-navbar {
-    grid-template-columns:
-      repeat(6, minmax(max-content, max-content)) minmax(0%, 20%)
-      repeat(1, minmax(max-content, max-content));
+    grid-template-columns: repeat(6, minmax(max-content, max-content)) minmax(0%, 20%) repeat(1, minmax(max-content, max-content));
     padding-left: 108px;
   }
 
@@ -307,9 +297,7 @@ main a:visited {
   }
 
   .white-navbar {
-    grid-template-columns:
-      repeat(6, minmax(max-content, max-content)) minmax(0%, 100%)
-      repeat(2, minmax(max-content, max-content));
+    grid-template-columns: repeat(6, minmax(max-content, max-content)) minmax(0%, 100%) repeat(2, minmax(max-content, max-content));
   }
 }
 
@@ -331,9 +319,7 @@ main a:visited {
   }
 
   .fixed-navbar {
-    grid-template-columns:
-      repeat(1, minmax(max-content, max-content)) minmax(0%, 100%)
-      repeat(2, minmax(max-content, max-content));
+    grid-template-columns: repeat(1, minmax(max-content, max-content)) minmax(0%, 100%) repeat(2, minmax(max-content, max-content));
     margin-top: -1em;
   }
 }
@@ -351,6 +337,7 @@ main a:visited {
   margin-bottom: 10px;
   margin-top: 70px;
   text-align: left;
+  padding: 10px;
 }
 
 .sb1 {
@@ -429,6 +416,7 @@ main p {
     grid-column: 1;
     grid-row: 1;
     min-height: 200px;
+    margin-bottom: 10px;
   }
 
   .sb2 {
@@ -436,6 +424,7 @@ main p {
     grid-column: 1;
     grid-row: 2;
     margin-bottom: 0;
+    margin-bottom: 10px;
   }
 
   .sb3 {
@@ -460,7 +449,7 @@ main p {
 @media (min-width: 768px) and (max-width: 1090px) {
   .main-1 {
     font-size: 10px;
-    grid-template-columns: repeat(auto-fit, minmax(0%, 30%));
+    grid-template-columns: repeat(auto-fit, minmax(0%, 31%));
   }
 }
 
@@ -483,11 +472,23 @@ main p {
   .m-7,
   .m-8 {
     display: grid;
-    grid-template-columns: 30% 70%;
+    grid-template-columns: 18% 82%;
+    margin-right: 2em;
   }
 
   main p {
-    padding-left: 0;
+    padding-left: 30px;
+  }
+
+  .m-1 a,
+  .m-2 a,
+  .m-3 a,
+  .m-4 a,
+  .m-5 a,
+  .m-6 a,
+  .m-7 a,
+  .m-8 a {
+    margin: 0 1em 1em 3em;
   }
 }
 
@@ -497,9 +498,7 @@ main p {
   box-sizing: border-box;
   column-gap: 20px;
   display: grid;
-  grid-template-columns:
-    repeat(1, minmax(max-content, max-content)) minmax(0%, 100%)
-    repeat(3, minmax(max-content, max-content));
+  grid-template-columns: repeat(1, minmax(max-content, max-content)) minmax(0%, 100%) repeat(3, minmax(max-content, max-content));
   margin-left: 5%;
   width: 86%;
 }
@@ -535,6 +534,7 @@ main p {
   margin-bottom: 20px;
   margin-left: 5%;
   width: 90%;
+  padding: 10px;
 }
 
 .l-1 {
