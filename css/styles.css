@@ -719,7 +719,8 @@ main p {
   width: 100%;
 }
 
-.story-title {
+.story-title,
+.story-title2 {
   font-size: 14px;
   font-weight: 700;
   line-height: 18px;
@@ -734,6 +735,10 @@ main p {
   line-height: 18px;
   padding-top: 4px;
   vertical-align: baseline;
+}
+
+.text {
+  display: grid;
 }
 
 .story-new-price {
@@ -1086,12 +1091,11 @@ ul {
 
   .story-price {
     float: left;
-    margin-left: -297px;
-    margin-top: 17px;
+    margin-bottom: 17px;
   }
 
   .deals-header-more {
-    margin-left: 55%;
+    margin-left: 33%;
     margin-top: 27px;
   }
 
