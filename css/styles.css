@@ -387,6 +387,7 @@ main a:visited {
 .sb1a {
   opacity: 0.8;
 }
+
 .sb2a {
   grid-row: 2;
 }
@@ -400,7 +401,6 @@ main a:visited {
   grid-row: 1 / span 1;
   margin-bottom: 10px;
   min-height: 200px;
-  
 }
 
 main p {
@@ -767,7 +767,6 @@ main p {
   font-family: Avalon, sans-serif;
   font-size: 28px;
   letter-spacing: -0.015em;
-  padding-left: 40px;
 }
 
 .section-latest,
@@ -1023,6 +1022,10 @@ ul {
     margin-left: 71%;
     margin-top: 3%;
   }
+
+  .wrapper-header {
+    margin-left: 36px;
+  }
 }
 
 @media (min-width: 768px) and (max-width: 1023px) {
@@ -1062,6 +1065,18 @@ ul {
     flex-basis: 50%;
     max-width: 50%;
   }
+
+  ul {
+    padding-left: 0;
+  }
+
+  ul :nth-child(1),
+  ul :nth-child(4),
+  ul :nth-child(6),
+  ul :nth-child(8) {
+    padding-left: 7px;
+    box-sizing: border-box;
+  }
 }
 
 @media (max-width: 767px) {
@@ -1097,5 +1112,9 @@ ul {
 
   .deals-h2 {
     padding-left: 10px;
+  }
+
+  ul {
+    padding-left: 0;
   }
 }
