@@ -1050,6 +1050,7 @@ ul {
     margin-bottom: 10px;
     margin-left: 10px;
     margin-right: 20px;
+    padding-bottom: 43px;
   }
 
   .grid-item img {
@@ -1069,7 +1070,7 @@ ul {
   ul {
     padding-left: 0;
   }
-
+  .footer-links-social li a
   ul :nth-child(1),
   ul :nth-child(4),
   ul :nth-child(6),
@@ -1077,6 +1078,7 @@ ul {
     padding-left: 7px;
     box-sizing: border-box;
   }
+ 
 }
 
 @media (max-width: 767px) {
