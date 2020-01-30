@@ -577,7 +577,7 @@ main p {
   box-sizing: border-box;
   column-gap: 20px;
   display: grid;
-  font-size: 12px;
+  font-size: 6px;
   grid-template-columns: repeat(auto-fit, minmax(0%, 23%));
   margin-bottom: 20px;
   margin-left: 5%;
@@ -589,10 +589,10 @@ main p {
   background-color: #ed4133;
   color: #fff;
   display: flex;
-  font-size: 18px;
+  font-size: 8px;
   font-weight: 700;
   grid-row: 1 / 2;
-  padding-left: 90px;
+  padding-left: 70px;
 }
 
 .l-3 {
@@ -600,7 +600,7 @@ main p {
   color: #000;
   display: flex;
   grid-row: 2 / 3;
-  padding-left: 90px;
+  padding-left: 70px;
 }
 
 .l-4 {
@@ -620,14 +620,14 @@ main p {
 
 .l-4 p,
 .l-5 p {
-  font-size: 20px;
+  font-size: 13px;
 }
 
 .latest img {
   margin-left: 10px;
   margin-top: -30px;
   position: absolute;
-  width: 70px;
+  width: 50px;
 }
 
 @media (min-width: 768px) and (max-width: 1024px) {
