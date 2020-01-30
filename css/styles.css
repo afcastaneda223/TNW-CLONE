@@ -1070,15 +1070,20 @@ ul {
   ul {
     padding-left: 0;
   }
-  .footer-links-social li a
+
   ul :nth-child(1),
   ul :nth-child(4),
   ul :nth-child(6),
   ul :nth-child(8) {
     padding-left: 7px;
     box-sizing: border-box;
+  }  
+  .footer-links-social li a,
+  .footer-links-social li a .icon{
+    box-sizing: border-box;
+    padding-left: 0px;
+
   }
- 
 }
 
 @media (max-width: 767px) {
