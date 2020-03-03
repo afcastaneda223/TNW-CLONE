@@ -4,6 +4,10 @@
 
 Building with Responsive Design
 
+![screenshot](./assets/screenshot.png)
+
+## Live link
+
 - https://raw.githack.com/afcastaneda223/TNW-CLONE/develop/index.html
 
 ## Built With
